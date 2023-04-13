@@ -1,0 +1,18 @@
+{
+	"Location" : 
+	{
+		"GPS" : "Grandma's house"
+	},
+	"Person" : 
+	{
+		"Name(s)" : "Red riding hood"
+	},
+	"Thing" : 
+	{
+		"Object(s)" : "Cap"
+	},
+	"Time" : 
+	{
+		"Time of day" : "12:00PM"
+	}
+}

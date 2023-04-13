@@ -1,0 +1,18 @@
+{
+	"Location" : 
+	{
+		"GPS" : "Grandma's house"
+	},
+	"Person" : 
+	{
+		"Name(s)" : "Little Red Riding Hood's Mother"
+	},
+	"Thing" : 
+	{
+		"Object(s)" : "Piece of cake, Bottle of wine"
+	},
+	"Time" : 
+	{
+		"Time of day" : "Next day, 8:00AM"
+	}
+}
