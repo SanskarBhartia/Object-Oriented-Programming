@@ -1,0 +1,2 @@
+final:
+       gcc Test_VI.cpp Test_MI.cpp -o final
