@@ -1,0 +1,51 @@
+[
+    {
+        "name": "set_name",
+        "params": {
+            "action": "set the team name",
+	    "student_list": [],
+	    "team_name": "whatever"
+        },
+        "returns": {
+            "action": "response",
+	    "response": "jsonstr"
+        }
+    },
+    {
+        "name": "obtain",
+        "params": {
+            "action": "obtain a game with ID",
+	    "class_id": "wordle",
+	    "game_id": "game id,or 00000000 for a new game"
+        },
+        "returns": {
+            "action": "response",
+	    "response": "jsonstr"
+        }
+    },
+    {
+        "name": "guess",
+        "params": {
+            "action": "guess a word for a game",
+	    "class_id": "wordle",
+	    "game_id": "game id",
+	    "my_guess" : "abcde"
+        },
+        "returns": {
+            "action": "response",
+	    "response": {}
+        }
+    },
+    {
+        "name": "submit",
+        "params": {
+            "action": "submit the game id with team name for scores",
+	    "game_id": "game id",
+	    "team_name" : "whatever"
+        },
+        "returns": {
+            "action": "response",
+	    "response": {}
+        }
+    }
+]

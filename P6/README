@@ -1,0 +1,44 @@
+## README
+
+AUTHORS:
+
+Sanskar Bhartia: 919252622
+Austin Kuo: 918323992
+Stavan Jani: 919640810
+
+
+## Introduction
+
+In this homework project, we created an algorithm that plays wordle against a server. We
+based this algorithm off of hw1, in which we player computer v computer wordle, and took it
+a level up by getting servers involved
+
+## Compiling
+
+Compiles through makefile using command make
+
+The application should compile pretty much anything.
+It requires almost no memory at all and can be used on older operating systems as well!
+
+
+Currently successfully tested are:
+
+- Windows 10
+- macOS Ventura Version 13.0 (22A380)
+
+First, make the file. After, you would open a terminal and the algorithm should run by itself
+
+
+## How it works
+
+We took inspiration from hw1, implementing the algorithm from that program. The key is to find the word
+as efficiently as possible. To achieve this, we eliminate words from the file of words that have letters that are
+not a part of the answer, and keep trying words with different letters till the answer is obtained
+
+## Result
+
+Everytime we get a guess wrong, it reflects on our score as a -4, but every guess that is right gives us +100, and
+this change in score is reflected on the server.
+
+## References:
+https://github.com/sfelixwu/1123_2022
