@@ -1,0 +1,52 @@
+## README
+
+Authors:
+Sanskar Bhartia (SID: 919252622)
+Vir Khanna (SID: 920071999)
+
+
+## About:
+The code is designed to extract various objects through classes such as Person, Thing, GPS, Time, and Record. We implemented the member function dump2JSON on all the records to output the results.
+
+Person class goes through the given text and identifies the people in the code. The code outputs the grandmother, the wolf, and red riding hood herself.
+
+Thing class simply identifies the objects such as wine or cake for example.
+
+GPS class identifies the locations mentioned in the text. For example, it outputs the location of homes or specific trees.
+
+Time class identifies the mention of any time during the text and outputs it when it is called.
+
+The record function goes which answers the questions of when, where, who, and which things. It then outputs the results using dump2JSON.
+
+
+## Compilation :
+The code can be compiled with the provided makefile using the standard `make`
+command. To run the code simply download and unzip the tar files via the terminal
+(tar zcvf).
+
+Run the makefile on the Linux/Mac system by typing into the terminal:
+
+cc -o main <File Name>.cpp
+g++ -c -o main <File Name>.cpp
+g++ <File Name>.cpp -o <File Name>
+./main
+
+
+## Compiling
+
+The application should compile pretty much anything.
+It requires almost no memory at all and can be used on older operating systems as well!
+
+Currently successfully tested are:
+
+- Windows 3.11
+- Windows 10
+- macOS Ventura Version 13.0 (22A380)
+
+
+## References:
+
+Text for reference
+https://americanliterature.com/childrens-stories/little-red-riding-hood
+Link from where initial files were downloaded
+https://github.com/sfelixwu/ecs36b_f2022_1003_2022.git
